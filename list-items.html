@@ -1,0 +1,106 @@
+<!DOCTYPE html><!--Declaration-->
+<html lang="it">
+    <head>
+        <title>L'arte con Mohammad Reza Pahlavi - L'ultimo Shah di Persia</title>
+        <!--Garantisco la portabilità del set di caratteri-->
+        <meta charset="UTF-8">
+        <!--Responsività-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css"> 
+    </head>
+    <body>
+        <header>
+        	<div id="mySidenav" class="sidenav">
+            	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            	<a href="index.html" title="Home"> Torna alla Home</a>
+            	<a href="#Storia" title="Storia"> Scopri la Storia</a>
+            	<a href="intro.html" title="Catalogo">Sfoglia il Catalogo</a>
+            	<script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+        		</script>
+        	</div>
+        	<!--Stile per sidenav-->
+        	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        	<div class="topnav">
+        		<h2 class="title">L'arte con Mohammad Reza Pahlavi - Il Catalogo</h2>
+        		<input type="text" placeholder="Cerca..." class="searchbar">
+        	</div>
+            <div class="spazio">
+            <div>
+                <h3 class="opere">Honibal Alkhas - Le opere</h3>
+            </div>
+        </header>
+		<section class="items">
+			<div class="menu" id="menu">
+				<ul>
+  					<li class="elenco"><a href="#">Ordine cronologico</a></li>
+  					<li class="elenco"><a href="#">Luogo di conservazione</a></li>
+  					<li class="elenco"><a href="#">Dalla A alla Z</a></li>
+  					<li class="elenco"><a href="#">Dalla Z alla A</a></li>
+  				</ul>
+			</div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="img/list-items/portrait_shamloo.jpg">
+                    <div class="box3">
+                        <h4><b>Portrait of Shamloo</b></h4>
+                        <p>2002</p> 
+                        <p>Tehran, Iran and Walnut Creek, CA</p>
+                        <p><a href="item_dc.html" class="button">Vai ai metadati</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/list-items/ziggurat.jpg">
+                    <div class="box3">
+                        <div class="spazio"></div>
+                        <div class="spazio"></div>
+                        <h4><b>Ziggurat - Queen</b></h4>
+                        <p>1995</p> 
+                        <p>California</p>
+                        <p><a href="#" class="button">Vai ai metadati</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/list-items/victory_over_fascism.jpg">
+                    <div class="box3">
+                        <h4><b>Victory over fascism</b></h4>
+                        <p>1996</p> 
+                        <p>California</p>
+                        <p><a href="#" class="button">Vai ai metadati</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/list-items/portrait_forough_farrokhzad.jpg">
+                    <div class="box3">
+                        <h4><b>Portrait of Forough Farrokhzad</b></h4>
+                        <p>2005</p> 
+                        <p>Tehran, Iran and California</p>
+                        <p><a href="#" class="button">Vai ai metadati</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class=footer1>
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">&raquo;</a>
+            </div>
+            <p><a href="#" title="Credits">Credits</a>  |  <a href="#" title="Licenze">Licenze</a></p>
+            <div class="copyright">
+                <p>© Copyright by Aurora Daneshfar - Digital Humanities - Università di Bologna</p>
+            </div>
+        </footer>
+    </body>
+</html>

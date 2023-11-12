@@ -1,0 +1,68 @@
+<!DOCTYPE html><!--Declaration-->
+<html lang="it">
+    <head>
+        <title>L'arte con Mohammad Reza Pahlavi - L'ultimo Shah di Persia</title>
+        <!--Garantisco la portabilità del set di caratteri-->
+        <meta charset="UTF-8">
+        <!--Responsività-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css"> 
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#Home" title="Home"> Torna alla Home</a>
+            <a href="#Storia" title="Storia"> Scopri la Storia</a>
+            <a href="#Catalogo" title="Catalogo">Sfoglia il Catalogo</a>
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+        </script>
+        </div>
+        <!--Stile per sidenav-->
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        <header class="contenitore">
+            <img src="img/layout/images.jpg" alt="Foto dello Shah" class="background-image">
+            <!--immagine da mettere in sfondo-->
+            <h1 class="scritta">L'arte con Mohammad Reza Pahlavi</h1> 
+            <h2 class="scritta1">L'ultimo Shah di Persia</h2>
+            <a href="intro.html" class="btn">Esplora...</a>
+        </header>
+        <div class="spazio"></div>
+        <nav>
+            <h2>Cerca qualcosa...</h2>
+        </nav>
+        <section>
+            <div class="box"> 
+                <div class="storia">
+                    <h2>La storia</h2>
+                    <h3>Secondo e ultimo Shah della dinastia Pahlavi, Reza Shah ha regnato dal 16 settembre 1941 fino alla rivoluzione islamica del 1979. Fortemente condizionato dalle potenze occidentali, si occupò di svecchiare il paese dal sistema feudale tentando di industrializzarlo e di renderlo una potenza militare.
+                        <p>
+                            <a href="https://it.wikipedia.org/wiki/Mohammad_Reza_Pahlavi" target="_blank">Scopri di più</a> sulla pagina Wikipedia dedicata, oppure naviga sulla nostra <a href="#">linea del tempo</a>
+                        </p>
+                    </h3>
+                </div>
+                <div class="progetto">
+                    <h2>Il progetto</h2>
+                    <h3>Il catalogo <em>L'arte con Mohammad Reza Pahlavi - L'ultimo Shah di Persia</em> è un progetto di Digital Humanities dell'Università di Bologna. Si propone di raccogliere diversi materiali artistico-culturali rappresentanti il sovrano, prodotti durante il suo periodo regnante o che hanno essenzialmente subito l'influenza dell'esperienza storica del suo regno, per rendere più intuitiva e comprensibile una vicenda spesso trascurata, ma cruciale, come quella delle premesse che portarono alla svolta islamica. 
+                    Gli items sono liberamente navigabili dal catalogo, ed una linea del tempo fornisce il quadro storico-cronologico di riferimento. <a href="list-items.html">Clicca qui</a> per iniziare la navigazione.
+                    </h3>
+                </div>
+            </div>
+            <div class="timeline">
+            <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1KD1TaVCQcR6jAjE1iAL4XmBwZw2jN5R_ZGXPi6yWubg&font=Rufina-Sintony&lang=it&initial_zoom=2&height=650' width='100%' height='750' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+            </div> 
+        </section>    
+        <footer class="footer">
+            <p><a href="#" title="Credits">Credits</a>  |  <a href="#" title="Licenze">Licenze</a></p>
+            <div class="copyright">
+                <p>© Copyright by Aurora Daneshfar - Digital Humanities - Università di Bologna</p>
+            </div>
+        </footer>
+    </body>
+</html> 

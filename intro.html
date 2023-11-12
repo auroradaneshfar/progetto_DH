@@ -1,0 +1,191 @@
+ <!DOCTYPE html><!--Declaration-->
+<html lang="it">
+    <head>
+        <title>L'arte con Mohammad Reza Pahlavi - L'ultimo Shah di Persia</title>
+        <!--Garantisco la portabilità del set di caratteri-->
+        <meta charset="UTF-8">
+        <!--Responsività-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css"> 
+    </head>
+    <body>
+        <header>
+        	<div id="mySidenav" class="sidenav">
+            	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            	<a href="index.html" title="Home"> Torna alla Home</a>
+            	<a href="#Storia" title="Storia"> Scopri la Storia</a>
+            	<a href="#Catalogo" title="Catalogo">Sfoglia il Catalogo</a>
+            	<script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+        		</script>
+        	</div>
+        	<!--Stile per sidenav-->
+        	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        	<div class="topnav">
+        		<h2 class="title">L'arte con Mohammad Reza Pahlavi - Il Catalogo</h2>
+        		<input type="text" placeholder="Cerca..." class="searchbar">
+        	</div>
+        </header>
+		<section class="items">
+			<div class="menu" id="menu">
+				<ul><!--unorderedlist-->
+  					<li onmouseover="showContent('cinema')">Cinema</li><!--listitem-->
+  					<li onmouseover="showContent('letteratura')">Letteratura</li>
+  					<li onmouseover="showContent('pittura')">Pittura</li>
+  					<li onmouseover="showContent('architettura')">Architettura</li>
+  				</ul>
+			</div>
+			<script>
+        		function showContent(contentId) {
+            		const contentElements = document.querySelectorAll('.text');
+            		contentElements.forEach(element => {
+                		element.style.display = 'none';
+            		});
+
+            		const selectedContent = document.getElementById(contentId);
+            		if (selectedContent) {
+                	selectedContent.style.display = 'block';
+            		}
+        		}
+    		</script>
+			<div class="spazio"></div>
+			<div class="content">
+				<div class="text" id="cinema" style="display:none;">
+					<h2>Cinema</h2>
+					<p>Il cinema iraniano nasce nell'anno 1900, dopo cinque anni dalla prima proiezione pubblica dei fratelli Lumière (28 dicembre 1895, Parigi), grazie all'iniziativa del quinto scià della dinastia Qajar (Mozaffareddin) che, in occasione di un viaggio in Europa, compra una cinepresa Gaumont al suo ritrattista ufficiale affinché documenti le attività della famiglia reale. Fino al 1930, nonostante il colpo di Stato nel 1920, in Iran si realizzano prevalentemente documentari con il sostegno della famiglia reale. Si tratta, in questo periodo, di un «cinema privato e protetto dalla corte (...): soltanto lo scià, i suoi cortigiani e chi fa parte della cerchia reale può assistere a queste proiezioni, mentre il popolo ne è escluso.».<sup><a href="#nota1">1</a></sup></p>
+					<p>Nel 1933 con l'avvento del sonoro Abdol Hossein Sepanta scrive e produce il primo film sonoro parlato in Farsi, <em>Dokhtare Lor (1933)</em>, ma viene realizzato in India, perchè in Iran, fino al 1947 vi erano enormi difficoltà di produzione. Le sale in quest'arco di tempo continuarono a proiettare pellicole straniere tra le quali nel 1943 i film anglofoni toccarono la percentuale del 70/80%. Dal 1948 si intraprese la produzione locale: questa, insieme alla distribuzione dei film iraniani tra gli anni Quaranta e Cinquanta fu anche favorita dalla «massiccia e severa» censura che colpiva i film stranieri e, soprattutto, le «pellicole che mettono in scena rivoluzioni, scioperi, ribellioni o mostrano deviazioni sessuali e tendenze anti islamiche.».<sup><a href="#nota2">2</a></sup></p>
+					<p>E' a partire dagli anni '60 che iniziano ad emergere i primi tratti distintivi del linguaggio cinematografico iraniano. Comincia la prima <em>nouvelle vague</em>, ovvero la prima generazione di cineasti nel senso proprio del termine. La prima fase della <em>nouvelle vague</em> iraniana vede registi che fin da subito destano l'attenzione dei critici d'essai internazionali; tuttavia, i film realizzati in Iran in questo periodo rappresentano una minima parte rispetto alla produzione complessiva.</p>
+					<p>In seguito ai disordini politici, dovuti alla Rivoluzione Islamica del 1979, molti esponenti di questa corrente artistica decidono di trasferirsi all'estero.</p>
+					<div class="spazio"></div>
+					<div id="nota1">
+						<sup>1</sup>Zaven Qokassian, <em>Cinema iraniano: dallo scià a Komeini</em>, in G. P. Brunetta (a cura di), <em>Storia del cinema mondiale. Vol. IV. Americhe, Africa, Asia, Oceania. Le cinematografie nazionali</em>, Torino, Einaudi, 2001, pp. 585 e ss. 
+					</div>
+					<div id="nota2">
+						<sup>2</sup>Ibidem.
+					</div>
+					<div class="spazio"></div>
+					<div id="fonte">
+						Fonte: Wikipedia. https://it.wikipedia.org/wiki/Cinema_iraniano
+					</div>
+					<div class="spazio"></div>
+					<div class="flex-container">
+						<div class="artist-box">
+							<img src="img/intro/cinema/amir_naderi.jpg">
+							Amir Naderi
+							<a href="#" class="opere-link">Le opere</a>
+						</div>
+  						<div class="artist-box">
+  							<img src="img/intro/cinema/jafar_panahi.jpg">
+  							Jafar Panahi
+  							<a href="#" class="opere-link">Le opere</a>
+  						</div>
+  						<div class="artist-box">
+  							<img src="img/intro/cinema/asghar_farhadi.jpg">
+  							Asghar Farhadi
+  							<a href="#" class="opere-link">Le opere</a>
+  						</div>
+					</div>
+				</div>
+				<div class="text" id="letteratura" style="display:none;">
+					<h2>Letteratura</h2>
+					<p>A partire dagli anni '20 del Novecento ha luogo un radicale rinnovamento della lirica, che abbandona i generi e i metri classici a favore di forme più libere con <strong>Nima Yushij</strong> e si apre, anche per l'influenza della Rivoluzione Russa, ai temi sociali e politici. Si elevano anche originali voci poetiche femminili come quelle di <strong>Parvin E'tasami</strong> e soprattutto di <strong>Forough Farrokhzad</strong> e di <strong>Simin Behbahani</strong>.</p>
+					<p>La prosa, in parte per l'influsso della scrittura giornalistica, stilisticamente si semplifica e si rinnova con <strong>Ali Akbar Dehkhoda</strong>, animatore del giornale critico-satirico <em>Sur-e Esrafil</em>, e con la novella realistica introdotta da <strong>Seyyed Mohammad Ali Jamalzade</strong> e sviluppata da <strong>Sadeq Chubak</strong>, anche pregevole autore di teatro. La prosa accoglie inoltre suggestioni provenienti anche da altre correnti di pensiero europee come il simbolismo o l'esistenzialismo, percepibili ad esempio nei racconti e romanzi di <strong>Sadeq Hedayat</strong>.</p>
+					<p>Grande sviluppo ha pure la letteratura per l'infanzia, veicolo di espressione sovversiva negli anni più duri della censura reale: iniziatico in questo senso "Il pesciolino nero" di <strong>Samad Behrangi</strong>, in cui è facilmente ravvedibile un piano di lettura simbolico-politico, e per il quale l'autore verrà giustiziato.</p>
+					<p>La letteratura più recente si arricchisce dell'apporto di numerosi scrittori esuli per motivi politici, a partire dall'epoca della deposta dinastia Pahlavi. Un po' ovunque, in Iran come nella diaspora iraniana in Europa e in America, si segnalano oggigiorno voci di autori e autrici che mettono sempre più in primo piano i temi caldi della differenza (religiosa, politica e di genere) e dei diritti umani, che talora scrivono anche in lingue europee.</p>
+					<div class="spazio"></div>
+					<div id="fonte">
+						Fonte: Wikipedia. https://it.wikipedia.org/wiki/Letteratura_persiana
+					</div>
+					<div class="spazio"></div>
+					<div class="flex-container">
+  						<div class="artist-box">
+  							<img src="img/intro/letteratura/forough_farrokhzad.jpg">
+  							Forough Farrokhzad
+  							<a href="#" class="opere-link">Le opere</a>
+  						</div>
+  						<div class="artist-box">
+  							<img src="img/intro/letteratura/samad_behrangi.jpg">
+  							Samad Behrangi
+  							<a href="#" class="opere-link">Le opere</a>
+  						</div>
+  						<div class="artist-box">
+  							<img src="img/intro/letteratura/sadeq_chubak.jpg">
+  							Sadeq Chubak
+  							<a href="#" class="opere-link">Le opere</a>
+  						</div>
+					</div> 
+				</div>
+				<div class="text" id="pittura" style="display:none;">
+					<h2>Pittura</h2>
+					<p>Ritenuta da sermpre l'arte visiva più coltivata nella cultura persiana, la pittura persiana viene storicamente associata alla sua famosa miniatura. Nel XIX secolo però questa cominciò gradualmente a cadere in disuso, anche a causa della sempre più penetrante influenza occidentale. Già <strong>Mirza Baba</strong>, pittore ufficiale della corte Qajar, si indirizzò sui ritratti o sulle pitture murali <em>naif</em>.</p>
+					<p>La Rivoluzione del 1978/79 ha avuto fra l'altro il merito di favorire la diffusione e lo sviluppo della pittura, da un lato istituendo corsi e facoltà specifiche nel sistema scolastico sia statale sia provato, restaurando i musei, sostenendo la fondazione di gallerie e mostre apposite, dall'altro consentendo agli studiosi e agli artisti iraniani di rivolgere l'attenzione alla tradizione pittorica precedente che la monarchia Pahlavi aveva sistematicamente trascurato con l'imposizione dell'occidentalizzazione indiscriminata.</p>
+					<p>La figura preminente della pittura iraniana del Novecento è <strong>Kamal-ol-Molk</strong>, considerato il padre della moderna arte figurativa nazionale, inizialmente associato alla corte Qajar di Nassreddin Shah, sosterrà le lotte costituzionaliste e assisterà al colpo di Stato che, con il supporto russo e britannico, insedierà il primo Pahlavi. Reza Shah compì ogni sforzo per convincerlo a collaborare, ma invano: di tutta risposta lo Shah boicottò la sua Scuola, e più tardi lo esiliò.</p>
+					<p>A seguito della nomina di Mohammad Reza Shah figlio, si incomincia ad osservare tra i pittori iraniani un orientamento di tipo espressionista, che a volte si avvale delle cifre stilistiche del simbolismo, a volte di spunti surrealisti. La produzione figurativa appare poi spesso influenzata dalle formule della grafica, nella ricerca di un'estrema essenzialità del tratto e di un uso del colore come elemento narrativo.</p>
+					<div class="spazio"></div>
+					<div id="fonte">
+						Fonte: Iran Cultura. https://www.irancultura.it/arte/arti-visive/
+					</div>
+					<div class="spazio"></div>
+					<div class="flex-container">
+  						<div class="artist-box">
+  							<img src="img/intro/pittura/honibal_alkhas.jpg">
+  							Honibal Alkhas
+  							<a href="list-items.html" class="opere-link">Le opere</a>
+  						</div>
+  						<div class="artist-box">
+  							<img src="img/intro/pittura/mohebbi_taban.jpg">
+  							Mohebbi Taban
+  							<a href="#" class="opere-link">Le opere</a>
+  						</div>
+  						<div class="artist-box">
+  							<img src="img/intro/pittura/hossein_khosrojerdi.jpg">
+  							Hossein Khosrojerdi
+  							<a href="#" class="opere-link">Le opere</a>
+  						</div>
+					</div> 
+				</div>
+				<div class="text" id="architettura" style="display:none;">
+					<h2>Architettura</h2>
+					<p>Gli architetti persiani godettero di una grande fama in passato, ed erano molto ricercati per ambiziosi progetto, come la costruzione della tomba di Rumi o anche all'estero: quella del <em>Taj Mahal</em>, della capitale dell'Azerbaigian Baku, del Minareto di Jam in Afghanistan, del Mausoleo di Tamerlano a Samarcanda.</p>
+					<p>Giunti agli anni '20 del Novecento, con l'avvento della dinastia Pahlavi ha convenzionalmente inizio l'architettura contemporanea in Iran. Nonostante la Monarchia si avvalesse spesso di tecnici esteri, come per il caso della costruzione del Museo Nazionale dell'Iran sotto la supervisione dell'architetto <strong>Andre Godard</strong>, molti architetti autoctoni si sono sforzati di unire gli elementi tradizionali con disegni moderni nelle loro opere: il campus principale dell'Università di Teheran è uno di questi esempi, o l'opera omnia dell'architetto <strong>Dariush Borbor</strong>, che combina con successo l'architettura moderna con il linguaggio locale. Non tutti però si rapportavano alla tradizione: altri, come <strong>Heydar Ghiai</strong> e <strong>Houshang Seyhoun</strong>, hanno cercato di creare opere completamente originali, indipendenti da influenze precedenti.</p>
+					<p>Grandi progetti di costruzione sono in corso in tutto l'Iran: un immenso centro commerciale ad Isfahan che prevede di includere un museo al suo interno, o il progetto <em>Flower of the East Development</em>, su modello saudita, ad arricchire l'isola di Kish nel Golfo Persico: adattati alle tendenze odierne di valorizzazione e di competitività turistica, questi progetti confermano l'interesse storicamente consolidato che l'Iran ha sempre nutrito per questo tipo di arte.</p>
+					<div class="spazio"></div>
+					<div id="fonte">
+						Fonte: HiSoUR. https://www.hisour.com/it/architecture-of-iran-31440/
+					</div>
+					<div class="spazio"></div>
+					<div class="flex-container">
+  						<div class="artist-box">
+  							<img src="img/intro/architettura/dariush_borbor.jpg">
+  							Dariush Borbor
+  							<a href="#" class="opere-link">Le opere</a>
+  						</div>
+  						<div class="artist-box">
+  							<img src="img/intro/architettura/heydar_ghiai.jpg">
+  							Heydar Ghiai
+  							<a href="#" class="opere-link">Le opere</a>
+  						</div>
+  						<div class="artist-box">
+  							<img src="img/intro/architettura/houshang_seyhoun.jpg">
+  							Houshang Seyhoun
+  							<a href="#" class="opere-link">Le opere</a>
+  						</div>
+					</div> 
+				</div>
+			</div>
+		</section>
+		<footer class=footer1>
+			<p><a href="#" title="Credits">Credits</a>  |  <a href="#" title="Licenze">Licenze</a></p>
+            <div class="copyright">
+                <p>© Copyright by Aurora Daneshfar - Digital Humanities - Università di Bologna</p>
+            </div>
+		</footer>
+	</body>
+</html>
+

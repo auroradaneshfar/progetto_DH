@@ -1,0 +1,82 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+     <teiHeader>
+        <fileDesc> <!-- unico obbligatorio -->
+            <titleStmt>
+                <title>Saluterò di nuovo il sole</title>
+                <author ref="#39427379">Forough Farrokhzad</author>
+                <respStmt>
+                    <resp>Edizione</resp>
+                    <name>TEI by example</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica TEI</resp>
+                    <name>Aurora Daneshfar</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>1956, <geogName ref="#112931">Tehran</geogName></p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Divar, "La parete"</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Il progetto vuole creare correlazioni tra le varie opere artistiche prodotte durante il regno di <persName ref="#64009470">Mohammad Reza Shah Pahlavi</persName>: tra queste, l'opera omnia della poetessa e regista <persName ref="#39427379">Forough Farrokhzad</persName> spicca nell'incisività con cui ha influenzato la nouvelle vague cinematografica persiana e la letteratura in versi contemporanea locale, imponendosi in virtù della sua femminilità.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="farsi">Farsi</language>
+            </langUsage>
+            <listPerson>
+                <person>
+                    <persName sameAs="http://viaf.org/viaf/39427379">Forough Farrokhzad</persName>
+                    <persName sameAs="http://viaf.org/viaf/64009470">Mohammad Reza Pahlavi</persName>
+                </person>
+            </listPerson>
+            <place>
+                    <geogName sameAs="https://www.geonames.org/112931/tehran.html">Tehran</geogName>
+            </place>
+        </profileDesc>
+     </teiHeader>
+     <text>
+        <body>
+           <lg xml:lang ="ita" n="1">
+               <l>Saluterò di nuovo il sole,</l>
+               <l>e il torrente che mi scorreva in petto,</l>
+               <l>e saluterò le nuvole dei miei lunghi pensieri</l>
+               <l>e la crescita dolorosa dei pioppi in giardino</l>
+               <l>che con me hanno percorso le secche stagioni.</l>
+           </lg> 
+           <lg xml:lang ="ita" n="2">
+               <l>Saluterò gli stormi di corvi</l>
+               <l>che a sera mi portavano in offerta</l>
+               <l>l'odore dei campi notturni.</l>
+           </lg>
+           <lg xml:lang ="ita" n="3">
+               <l>Saluterò mia madre, che viveva in uno specchio</l>
+               <l>e aveva il volto della mia vecchiaia.</l>
+               <l>E saluterò la terra, il suo desiderio ardente</l>
+               <l>di ripetermi e riempire di semi verdi</l>
+               <l>il suo ventre infiammato,</l>
+               <l>sì, la saluterò</l>
+               <l>la saluterò di nuovo.</l>
+           </lg>
+           <lg xml:lang ="ita" n="4">
+               <l>Arrivo, arrivo, arrivo</l>
+               <l>con i miei capelli, l'odore che è sotto la terra</l>
+               <l>e i miei occhi, l'esperienza densa del buio.</l>
+               <l>Con gli arbusti che ho strappato ai boschi dietro il muro.</l>
+           </lg>
+           <lg xml:lang ="ita" n="5">
+               <l>Arrivo, arrivo, arrivo,</l>
+                <l>e la soglia trabocca d'amore</l>
+                <l>ed io ad attendere quelli che amano</l>
+                <l>e la ragazza che è ancora lì,</l>
+                <l>nella soglia traboccante d'amore, io</l>
+                <l>la saluterò di nuovo.</l>
+           </lg>
+        </body>
+     </text>
+</TEI>

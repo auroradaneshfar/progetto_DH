@@ -1,0 +1,77 @@
+<!DOCTYPE html><!--Declaration-->
+<html lang="it">
+    <head>
+        <title>L'arte con Mohammad Reza Pahlavi - L'ultimo Shah di Persia</title>
+        <!--Garantisco la portabilità del set di caratteri-->
+        <meta charset="UTF-8">
+        <!--Responsività-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css"> 
+    </head>
+    <body>
+        <header>
+        	<div id="mySidenav" class="sidenav">
+            	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            	<a href="index.html" title="Home"> Torna alla Home</a>
+            	<a href="#Storia" title="Storia"> Scopri la Storia</a>
+            	<a href="intro.html" title="Catalogo">Sfoglia il Catalogo</a>
+            	<script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+        		</script>
+        	</div>
+        	<!--Stile per sidenav-->
+        	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        	<div class="topnav">
+        		<h2 class="titolo">L'arte con Mohammad Reza Pahlavi - Il Catalogo</h2>
+        		<input type="text" placeholder="Cerca..." class="cerca">
+        	</div>
+        </header>
+        <div class="spazio"></div>
+        <section>
+            <div class="row">
+                <div class="column left">
+                    <div class="immagine">
+                        <h3 class="opere">Portrait of Shamloo</h3>
+                        <img src="img/list-items/portrait_shamloo.jpg">
+                    </div>
+                    <div class="metadati">
+                        <h3>Metadati</h3>
+                        <p><strong>Titolo:</strong> Portrait of Shamloo</p>
+                        <p><strong>Autore:</strong> Honibal Alkhas</p>
+                        <p><strong>Luogo di creazione:</strong> Tehran, Iran and Walnut Creek, CA</p>
+                        <p><strong>Data di creazione:</strong> 2002</p>
+                        <p><strong>Tecnica:</strong> inchiostro ed acrilico su carta</p>
+                        <p><strong>Dimensioni:</strong> 34x55.1 cm</p>
+                        <p><strong>Luogo di conservazione:</strong> Metropolitan Museum of Art, New York (NY)</p>
+                    </div>
+                </div>
+                <div class="column right">
+                    <a href="https://simple.wikipedia.org/wiki/Hannibal_Alkhas" target="_blank" class="wiki">Scopri di più sull'autore</a>
+                    <div class="spazio"></div>
+                    <p><strong>Può interessarti anche:</strong></p>
+                    <a href="#" class="suggerimento">Portrait of Forough Farrokhzad - H. Alkhas</a>
+                    <p><a href="#" class="suggerimento">Ziggurat - H. Alkhas</a></p>
+                    <p><a href="#" class="suggerimento">Hossein Khosrojerdi</a></p>
+                    <p><a href="item_tei.html" class="suggerimento">Saluterò di nuovo il sole - F. Farrokhzad</a></p>
+                    <div class="spazio"></div>
+                    <a href="DC.xml" download class="download">Scarica i metadati Dublin Core</a>
+                    <div class="spazio"></div>
+                    <a href="#" download class="download">Scarica i metadati TEI</a> 
+                </div>
+            </div>
+        </section>
+        <div class="spazio"></div>
+        <footer class="footer">
+            <p><a href="#" title="Credits">Credits</a>  |  <a href="#" title="Licenze">Licenze</a></p>
+            <div class="copyright">
+                <p>© Copyright by Aurora Daneshfar - Digital Humanities - Università di Bologna</p>
+            </div>
+        </footer>
+    </body>
+</html> 
