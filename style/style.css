@@ -1,0 +1,417 @@
+body {
+	font-family: "Noto Sans", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffd700;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px; /*senso orario*/
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: relative;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 200px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.background-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.6;
+  width: 25%; /*per ridurre la larghezza del 25%*/
+  height: auto; /*per conservare proporzioni*/
+  position: relative;
+  transition: opacity 0.5s ease;
+}
+
+.contenitore {
+  background-color: #ffec80;
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.contenitore:hover img {
+  opacity: 0.5;
+}
+
+.scritta {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.scritta1 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffd700;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #f1f1f1;
+  transition: 0.3s;
+}
+
+nav {
+  margin-left: 250px;
+  margin-right: 250px;
+  border: 5px solid #ff8000;
+  border-radius: 12px;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+.spazio {
+  padding: 20px;
+}
+
+.box {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.storia, .progetto {
+  flex: 1;
+}
+
+.storia {
+  padding-right: 15px;
+}
+
+.progetto {
+  padding-left: 15px;
+}
+
+.timeline {
+  padding: 30px;
+}
+
+.footer {
+  position: relative; 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.menu {
+  position: fixed;
+  top: 200px;
+  right: 0;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu li:hover {
+  color: #ffd700;
+  transition: 0.3s;
+}
+
+.uno .due .tre .quattro {
+  padding: 40%;
+}
+
+.items {
+  margin-bottom: 50px;
+}
+
+.topnav {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin-right:200px;
+}
+
+.searchbar {
+  border: 5px solid #ff8000;
+  border-radius: 12px;
+  padding: 5px;
+  padding-left: 20px;
+  display: inline-block;
+  margin-right:200px;
+}
+
+.content {
+  margin-right:200px;
+}
+
+.flex-container {
+  background-color: #ffd700;
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.artist-box {
+    border: 3px solid #1a1a1a;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    height: 230px;
+}
+
+.artist-box img {
+  display: block;
+  margin: 0 auto;
+}
+
+.opere-link {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  color: black;
+}
+
+.opere-link:hover {
+  background-color: #737373;
+}
+
+.footer1 {
+  position: relative; 
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  transform: translateY(-50%);
+  margin-right: 200px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  transition: text-shadow 0.3s;
+}
+
+.menu li a:hover {
+  text-decoration: none;
+  filter: drop-shadow(0/*ombra centrata orizzontalmente*/ 0/*ombra centrata verticalmente*/ 4px/*dimensione dell'ombra*/ lightgrey); 
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);/*rgba x sfumature*/
+  transition: 0.3s;
+  text-align: center;
+  width: calc(30% - 25px);/*calc x calcoli*/
+  padding: 20 px;
+  float: left;
+  margin-right: 200px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.box3 {
+  padding: 2px 16 px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #ffd700;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ff8000;
+  border-radius: 5px;
+}
+
+.button:link, .button:visited {
+  background-color: white;
+  color: black;
+  border: 2px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover, .button:active {
+  background-color: #ffd700;
+  color: white;
+}
+
+.cerca {
+  border: 5px solid #ff8000;
+  border-radius: 12px;
+  padding: 5px;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  float: right;
+  padding: 10px;
+}
+
+.left {
+  width: 75%;
+  margin-left: 250px;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+.right {
+  width: 25%;
+  float: none;
+  margin-right: 0;
+  margin-top: 15px;
+}
+
+/*fine floating*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+.wiki {
+  background-color: #ffd700;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.wiki:hover {
+  background-color: #ff8000;
+  color: white;
+}
+
+.suggerimento {
+  background-color: #ffd700;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.suggerimento:hover {
+  background-color: #ff8000;
+  color: white;
+}
+
+.download {
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.download:hover {
+  background-color: red;
+  color: white;
+}
+
+.wiki, .suggerimento, .download {
+  width: 200px;
+  padding: 20px;
+}
+
+.strofa {
+  padding-left: 30px;
+  font-style: italic;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.strofa p {
+  margin: 5px 0;
+}
